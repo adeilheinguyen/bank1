@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="model/" kind="src" path="Bank1/src/java"/>
+	<classpathentry kind="src" path="Bank1/src/java/model"/>
+	<classpathentry kind="src" path="Bank1/test"/>
+	<classpathentry kind="lib" path="Bank1/build/web/WEB-INF/lib/jspcompile.jar"/>
+	<classpathentry kind="lib" path="Bank1/build/web/WEB-INF/lib/jstl-api.jar"/>
+	<classpathentry kind="lib" path="Bank1/build/web/WEB-INF/lib/jstl-impl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+input,
+textarea,
+button {
+    outline: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video,
+details,
+summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background: url(../img/body-background.png) repeat top left;
+}
+
+.banner {
+    width: 100%;
+    height: 110px;
+    clear: both;
+    background: #fff;
+}
+
+.banner-logo{
+    padding: 25px 0;
+    text-align: center;
+
+}
+
+.banner-logo img{  
+    width: 50%;
+
+}
+
+.menu {
+    background: #c62d1f;
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #4d8a71;
+}
+
+.menu ul li {
+    padding: 5px 10px;
+    border-left: 1px solid #4d8a71;
+    display: inline-block;
+}
+
+.menu ul li:last-child {
+    border-right: 1px solid #4d8a71;
+}
+
+.menu ul {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.home a i {
+    font-size: 20px;
+
+}
+
+.menu ul li a {
+    display: block;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+}
+
+.content-wrapper {
+    background: #fff;
+    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 3px 2px 2px #aaa;
+}
+
+.content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+.acc-detail {
+    text-align: center;
+    background: #c62d1f;
+    padding: 5px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.acc-title {
+    font-weight: bold;
+    padding: 10px 0;
+    width: 100%;
+    text-transform: uppercase;
+    color: #c62d1f;
+    background: url(../img/nav-line-bg.png) repeat-x bottom center;
+    margin-bottom: 10px;
+}
+
+.acc-info {
+
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+}
+
+.acc-select {
+    display: unset;
+    max-width: 325px;
+}
+
+.tbllisting {
+    border-collapse: collapse;
+    background: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.fix_table tr td {
+    border-bottom: 1px dotted #ccc;
+}
+
+td.tdlabel,
+.tbllisting td {
+    color: #222 !important;
+    font-size: 12px;
+}
+
+.tbllisting td {
+    text-align: left;
+    color: #333;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.fix_table td {
+    padding: 5px 15px 10px 15px !important;
+}
+
+.tdlabel {
+    font-weight: bold;
+}
+
+td span {
+    font-weight: normal;
+}
+
+footer {
+    background: #c62d1f;
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+
+footer .footer-text {
+    width: 900px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+}
+
+footer .footer-text .left {
+    float: left;
+    width: 400px;
+    padding: 12px 0;
+    text-align: left;
+}
+
+footer .footer-text .right {
+    float: right;
+    width: 500px;
+    padding: 12px 0;
+    text-align: right;
+}
+
+.footer-text a {
+    color: #fff;
+    font-size: 15px;
+}
+
+/*=====Sign In=====*/
+.signin-body {
+    background: #00502f;
+}
+
+.sign-in-banner{
+    position: relative;
+}
+.sign-in-banner .img-1{
+    background-image: url('../img/TCB_tet2019_Homepage_2560x847px.jpg');
+    background-repeat: no-repeat;
+    background-position:-1000px 0;
+    display: inline-block;
+    height: 720px;
+    width: 1536px;
+    text-indent: -9999px;
+}
+.sign-in-banner .img-2{
+    background-image: url('../img/TCB_VINCITY_Homepage_2560x847px.jpg');
+    background-repeat: no-repeat;
+    background-position:-1000px 0;
+    display: inline-block;
+    height: 720px;
+    width: 1536px;
+    text-indent: -9999px;
+}
+.sign-in-banner .img-3{
+    background-image: url('../img/TCB_combo_Homepage_2560x847px_tet.jpg');
+    background-repeat: no-repeat;
+    background-position:-1000px 0;
+    display: inline-block;
+    height: 720px;
+    width: 1536px;
+    text-indent: -9999px;
+}
+
+.signin-wrapper {
+    margin: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: url(../img/bg_login_png.png);
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.box-login {
+    top: 0;
+    right: 0;
+    z-index: 10;
+    position: fixed ;
+    max-width: 400px;
+    min-height: 100%;
+    background: rgba(213, 210, 210,0.8);
+    padding: 0 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.logo{
+    padding: 60px 0;
+}
+.logo img {
+    width: 100%;
+}
+
+.signin-info form input {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.btn-default {
+    background: #c62d1f;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.signin-link {
+    text-align: left;
+    padding-top: 15px;
+    float: left;
+    border-top: 1px dotted #bbbbbb;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.signin-link a {
+    color: #222;
+    font-size: 13px !important;
+    background: url(../img/nav-left-icon.png) no-repeat left;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+.signin-link p {
+    margin: 5px 0;
+}
+
+.control-group {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    float: none;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.control-group label {
+    background: none;
+    width: 300px;
+    float: left;
+    text-align: right;
+    padding: 8px 0;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    cursor: default;
+}
+
+.control {
+    float: left;
+    width: 300px !important;
+    margin-left: 10px;
+}
+
+.control label {
+
+    display: block;
+    padding: 9px 0;
+    font-size: 14px;
+    line-height: 1.3;
+    height: auto;
+    font-weight: normal;
+
+}
+
+.money {
+    text-align: left !important;
+
+}
+
+.money-input {
+    padding: 6px 12px;
+}
+
+.note {
+    text-align: left;
+    font-size: 13px;
+}
+
+.control-label {
+    display: none;
+}
+
+.form-submit {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 1;
+    height: auto;
+}
+
+.form-submit .control {
+    float: right;
+    text-align: right;
+}
+
+.rate {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.rate-count-result h1{
+    font-weight: bold;
+
+}
+.rate-count-result h2{
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.imp {
+    background-color: #CCFFDD;
+    font-weight: bold;
+}
+.cus-img-1{
+    width: 28%;
+}
+.cus-img-2{
+    width: 40%;
+}
+.cus-img-3{
+    width: 60%;
+}
+.rate-note ul li {
+    list-style-type: circle;
+}
+#rate-count{
+    margin: 40px 0;
+}
+#rate-count span.heading{
+    font-weight: bold;
+    font-size: 13px;
+}
+#rate-count tbody tr td{
+    padding: 5px 10px;
+    margin: 10px 5px;
+}
+.rate-count-wrapper, .rate-count-result{
+    max-width: 600px;
+    margin: 10px auto;
+}
+.rate-count{
+    width: 510px;
+    display: inline-block;
+}
+.count-btn{
+    text-align: center;
+}
+.count-btn button{
+    padding: 5px 25px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+label.error {
+    color: red;
+    margin: 0 10px;
+}
+.rate-count .error {
+    color: red;
+    position: absolute;
+    margin: 0 10px;
+}
+.pos label{
+    align-self: center;
+}
+.pos{
+    display: flex;
+}
+div.error{
+    color: red;
+}
+.pos input{
+    width: 60%;
+}
+div#error{
+    color: red;
+    display: none;
+}
+.id-number{
+    display: flex;
+}
+.rate-count{
+    position: relative;
+}
+.acc-signup{
+    width: 100%;
+}
+.input-form-signup{
+    width: 20%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.signup-input{
+    position: relative;
+    margin: 10px ;
+    display: inline-block;
+    width: 76%;
+}
+.confirm-check,.confirm-text{
+    margin: 10px ;
+}
+.sign-up-wrapper{
+    background: #fff;
+    padding: 10px;
+}
+.btn-confirm{
+    width: 100%;
+    text-align: right;
+}
+.get-all table{
+    background: #cccc;
+}
+.acc-content{
+    position: relative;
+}
+.btn-get{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
