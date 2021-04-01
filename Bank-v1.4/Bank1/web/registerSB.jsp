@@ -32,11 +32,11 @@
         <div class="content">
             <div class="acc-content">
                 <div class="acc-detail">
-                    <span class="acc-detail-title">Open Savingbook</span>
+                    <span class="acc-detail-title">Mở sổ tiết kiệm</span>
                 </div>
                 <form action="processRSB.jsp" method="post" name="processRSB">
                     <div class="form-group">
-                        <label class="acc-title">Source account</label>
+                        <label class="acc-title">Tài khoản nguồn</label>
                         <div class="acc-info">
                             <div class="control-group">
                                 <label>Account: </label>
@@ -59,27 +59,27 @@
                                 sdkd = df.format(d_sdkd);
                             %>
                             <div class="control-group">
-                                <label>Available balance: </label>
+                                <label>Số dư khả dụng: </label>
                                 <div class="control">
                                     <label class="money" autofocus="true" style="margin-left: 71px;"> <span name ="money" id ="money"><%=sdkd%></span></label>
                                 </div>
                             </div>
                         </div>
 
-                        <label class="acc-title">CURRENT ACCOUNT</label>
+                        <label class="acc-title">Tài khoản hiện thời</label>
                         <div class="acc-info">
                             <div class="control-group">
                                 <div class="control-group">
-                                    <label>Select type: </label>
+                                    <label>Chọn loại: </label>
                                     <div class="control">
                                         <select name="loaiTK" id="loaiTK" class="form-control" onchange="giveSelection(this.value)" >
-                                            <option value="1">Recurrent savings</option>
-                                            <option value="2">Non-term savings</option>
+                                            <option value="1">Tiết kiệm định kỳ</option>
+                                            <option value="2">Tiết kiệm không kỳ hạn</option>
                                             <option value="3">SuperKid</option>
-                                            <option value="4">Phat Loc Online</option>
-                                            <option value="5">Tai tam - Tai hien có with insurrance</option>
-                                            <option value="6">Tai tam - Tai hien có without insurrance</option>
-                                            <option value="7">An loc savings</option>
+                                            <option value="4">Phát Lộc Online</option>
+                                            <option value="5">Tài tâm - Tài hiền có bảo hiểm</option>
+                                            <option value="6">Tài tâm - Tài hiền không có bảo hiểm</option>
+                                            <option value="7">Tiết kiệm An Lộc</option>
                                         </select>
                                         <br >
                                     </div>
@@ -90,49 +90,49 @@
                                             <select name="kyhangui" id="kyhangui" class="form-control" onchange="kyhangui()" >
                                                 <!-- Có kì hạn -->
                                                 <option selected="selected" value="1" data-option="1">1 month</option>
-                                                <option value="3" data-option="1">3 months</option>
-                                                <option value="6" data-option="1">6 months</option>
-                                                <option value="9" data-option="1">9 months</option>
-                                                <option value="12" data-option="1">12 months</option>
-                                                <option value="24" data-option="1">24 months</option>
-                                                <option value="36" data-option="1">36 months</option>
+                                                <option value="3" data-option="1">3 tháng</option>
+                                                <option value="6" data-option="1">6 tháng</option>
+                                                <option value="9" data-option="1">9 tháng</option>
+                                                <option value="12" data-option="1">12 tháng</option>
+                                                <option value="24" data-option="1">24 tháng</option>
+                                                <option value="36" data-option="1">36 tháng</option>
 
                                                 <!--Không kỳ hạn-->
-                                                <option value="0" data-option="2">Choose the time</option>
+                                                <option value="0" data-option="2">Chọn thời gian</option>
                                                 <!-- Superkid -->
-                                                <option value="12" data-option="3">12 months</option>
+                                                <option value="12" data-option="3">12 tháng</option>
 
                                                 <!-- Phát lộc -->
-                                                <option selected="selected" value="1" data-option="4">1 months</option>
-                                                <option value="3" data-option="4">3 months</option>
-                                                <option value="6" data-option="4">6 months</option>
-                                                <option value="9" data-option="4">9 months</option>
-                                                <option value="12" data-option="4">12 months</option>
-                                                <option value="24" data-option="4">24 months</option>
-                                                <option value="36" data-option="4">36 months</option>
+                                                <option selected="selected" value="1" data-option="4">1 tháng</option>
+                                                <option value="3" data-option="4">3 tháng</option>
+                                                <option value="6" data-option="4">6 tháng</option>
+                                                <option value="9" data-option="4">9 tháng</option>
+                                                <option value="12" data-option="4">12 tháng</option>
+                                                <option value="24" data-option="4">24 tháng</option>
+                                                <option value="36" data-option="4">36 tháng</option>
 
                                                 <!-- Tài tâm KBH -->
-                                                <option selected="selected" value="1" data-option="5">1 months</option>
-                                                <option value="3" data-option="5">3 months</option>
-                                                <option value="6" data-option="5">6 months</option>
-                                                <option value="9" data-option="5">9 months</option>
-                                                <option value="12" data-option="5">12 months</option>
-                                                <option value="24" data-option="5">24 months</option>
-                                                <option value="36" data-option="5">36 months</option>
+                                                <option selected="selected" value="1" data-option="5">1 tháng</option>
+                                                <option value="3" data-option="5">3 tháng</option>
+                                                <option value="6" data-option="5">6 tháng</option>
+                                                <option value="9" data-option="5">9 tháng</option>
+                                                <option value="12" data-option="5">12 tháng</option>
+                                                <option value="24" data-option="5">24 tháng</option>
+                                                <option value="36" data-option="5">36 tháng</option>
 
-                                                <option selected="selected" value="1" data-option="6">1 months</option>
-                                                <option value="3" data-option="6">3 months</option>
-                                                <option value="6" data-option="6">6 months</option>
-                                                <option value="9" data-option="6">9 months</option>
-                                                <option value="12" data-option="6">12 months</option>
-                                                <option value="24" data-option="6">24 months</option>
-                                                <option value="36" data-option="6">36 months</option>
+                                                <option selected="selected" value="1" data-option="6">1 tháng</option>
+                                                <option value="3" data-option="6">3 tháng</option>
+                                                <option value="6" data-option="6">6 tháng</option>
+                                                <option value="9" data-option="6">9 tháng</option>
+                                                <option value="12" data-option="6">12 tháng</option>
+                                                <option value="24" data-option="6">24 tháng</option>
+                                                <option value="36" data-option="6">36 tháng</option>
 
 
-                                                <option selected="selected" value="3" data-option="7">3 months</option>
-                                                <option value="6" data-option="7">6 months</option>
-                                                <option value="9" data-option="7">9 months</option>
-                                                <option value="12" data-option="7">12 months</option>
+                                                <option selected="selected" value="3" data-option="7">3 tháng</option>
+                                                <option value="6" data-option="7">6 tháng</option>
+                                                <option value="9" data-option="7">9 tháng</option>
+                                                <option value="12" data-option="7">12 tháng</option>
                                             </select>
                                         </div>
                                         <!--<p>Lãi suất: 0 VNĐ</p>--> 
@@ -141,7 +141,7 @@
                                     <div class="control-group">
                                         <label>Number to send: </label>
                                         <div class="control">
-                                            <input name="soTienGui" id="soTienGui" type="number" placeholder="Insert number to send" class="money-input form-control">
+                                            <input name="soTienGui" id="soTienGui" type="number" placeholder="Nhập số tiền gửi" class="money-input form-control">
                                         </div>
                                         <span>VND</span>
                                     </div>
@@ -163,7 +163,7 @@
                                         <div class="control">
                                             <select name="httl" id="httl" onchange="httl()" class="acc-select form-control">
                                                  <option value="nhapgoc">Pay original interest</option>
-                                                    <option value="chuyenkhoan">Pay interest on account transfer</option>
+                                                    <option value="chuyenkhoan">Trả lãi khi chuyển khoản</option>
                                             </select>
                                         </div>
                                     </div>
@@ -171,9 +171,9 @@
                                         <label>Note: </label>
                                         <div class="control">
                                             <span class="note">
-                                                <p>- Minimum deposit amount: VND 3,000,000. In case the source account is in foreign currency, the minimum deposit amount is converted into VND according to the transfer transfer rate of the branch where the client opens the source account.</p>
-                                                <p>- In case the due date and interest payment date coincide with the holidays / holidays: The due date and interest payment date shall be transferred to the nearest working day of Techcombank. The maturity date of the next period is still determined on the basis of the online savings account opening date.</p>
-                                                <p>- Validity period of interest rate: applied according to the interest rate regulation at Techcombank Transaction Counter.</p>
+                                                <p>- Số tiền gửi tối thiểu: 3.000.000 VND. Trường hợp tài khoản nguồn bằng ngoại tệ, số tiền ký quỹ tối thiểu quy đổi ra VND theo tỷ giá chuyển khoản của chi nhánh nơi khách hàng mở tài khoản nguồn.</p>
+                                                <p>- Trường hợp ngày đến hạn và ngày trả lãi trùng vào ngày nghỉ, ngày lễ: Ngày đến hạn và ngày trả lãi được chuyển sang ngày làm việc gần nhất của Techcombank. Ngày đáo hạn của kỳ tiếp theo vẫn được xác định trên cơ sở ngày mở tài khoản tiết kiệm trực tuyến.</p>
+                                                <p>- Thời hạn hiệu lực của lãi suất: áp dụng theo quy định về lãi suất tại quầy giao dịch Techcombank.</p>
                                             </span>
                                         </div>
                                     </div>
