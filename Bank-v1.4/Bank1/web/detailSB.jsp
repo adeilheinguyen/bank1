@@ -30,19 +30,19 @@
 
 <%@ include file="header.jsp" %>
 <% if (listsm == null || listsm.size() == 0) { %>
-<p align="center"><b>You don't have the passbook yet please register one</b></p>
+<p align="center"><b>Hãy đăng kí sổ tiết kiệm nếu bạn chưa có sổ!</b></p>
 <%} else {%>
 <div class="content-wrapper">
     <div class="content">
         <div class="acc-content">
             <div class="acc-detail">
-                <span class="acc-detail-title">Savingbook detail</span>
+                <span class="acc-detail-title">Chi tiết sổ tiết kiệm</span>
             </div>
             <form  method="POST" action="processDetailSB.jsp">
                 <div class="form-group">
-                    <label class="acc-title">Source account</label>
+                    <label class="acc-title">Tài nguyên tài khoản</label>
                     <div class="acc-info">
-                        <label>Select the passbook: </label>
+                        <label>Chọn sổ tiết kiệm </label>
                         <select class=" acc-select form-control" name="stk" id="stk" onchange="opt()">
                             <% for (int i = 0; i < listsm.size(); i++) {%>
                             <option 
@@ -68,54 +68,54 @@
                         ls = sm.getDeal().getIr().getLaiSuat();
                         stgtk = df.format(sm.getDeposits());
                     %>
-                    <label class="acc-title">Money for payment</label>
+                    <label class="acc-title">Tiền thanh toán</label>
                     <div class="acc-info">
                         <table class="tbllisting fix_table">
                             <tbody id="loaiTKD">
                                 <tr>
-                                    <td class="tdlabel">Savingbook holder</td>
+                                    <td class="tdlabel">Chủ sổ tiết kiệmr</td>
                                     <td><label id="lb_tenchuso" name="lb_tenchuso"><%= tenChuSo%></label></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Connected account</td>
+                                    <td class="tdlabel">Tài khoản đã liên kết</td>
                                     <td><span id="lb_taikhoanlienket" name="lb_taikhoanlienket"><%= tklk%></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Current balance</td>
+                                    <td class="tdlabel">Số dư hiện tại</td>
                                     <td><span id="lb_soduhientai" name="lb_soduhientai"><%= sdht%></span> VND</td>
 
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Number for saving</td>
+                                    <td class="tdlabel">Số dư tài khoản</td>
                                     <td><span id="lb_sotgtk" name="lb_sotgtk"><%= stgtk%></span> VND</td>
 
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Type of saving</td>
+                                    <td class="tdlabel">Loại hình tiết kiệm</td>
                                     <td><dispanv id="lb_loaihinhtietkiem" name="lb_loaihinhtietkiem"><%= lhtk%></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Date</td>
+                                    <td class="tdlabel">Kỳ hạn</td>
                                     <td><label name="lb_kyhan" id="lb_kyhan" value="<%= kyhan%>"><%= kyhan%></label> month</td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Interest payment method</td>
+                                    <td class="tdlabel">Hình thức trả lãi</td>
                                     <td><span name="lb_hinhthuctralai" id="lb_hinhthuctralai"><%= httl%></span></td>
                                 </tr>
                                 <tr>
-                                    <td id="dayTKD" class="tdlabel" >Opening date</td>
+                                    <td id="dayTKD" class="tdlabel" >Ngày mở sổ</td>
                                     <td><span name="lb_ngaymoso" id="lb_ngaymoso"><%= ngayms%></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel" >Current date</td>
+                                    <td class="tdlabel" >Thời gian</td>
                                     <td><span name="time_span" id="time_span"></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Time sent</td>
+                                    <td class="tdlabel">Ngày gửi</td>
                                     <td><span name="chechlechtime" id="chechlechtime"></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Interest rate</td>
+                                    <td class="tdlabel">Lãi suất</td>
                                     <td><span name="lb_laisuat" id="lb_laisuat"><%= ls%>%</span></td>
                                 </tr>
 
