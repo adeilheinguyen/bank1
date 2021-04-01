@@ -6,8 +6,8 @@
 <%
     String nameaccount = request.getParameter("nameaccount");
     String password = request.getParameter("password");
-    String fs = "Login fail!";
-    String suc = "Login success!";
+    String fs = "Đăng nhập thất bại!";
+    String suc = "Đăng nhập thành công!";
     if (nameaccount.equals("") || password.equals("")) {
         session.setAttribute("errMessage", fs);
         request.getRequestDispatcher("index.jsp").forward(request, response);
