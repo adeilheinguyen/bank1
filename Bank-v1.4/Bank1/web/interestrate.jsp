@@ -16,7 +16,7 @@
                     <table>
                         <tbody>
                             <tr>
-                                <td><span class="heading">Điền số tiền</span></td>
+                                <td><span class="heading">Số tiền</span></td>
                                 <td><input type="number" name="sotien" autofocus="true" id="sotien" class="form-control"  title=""></td>
                                 <td>VND</td>
                             </tr>
@@ -106,7 +106,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><span name="kq"class="heading">Interest number</span></td>
+                                <td><span name="kq"class="heading">Tiền lãi</span></td>
 
                                 <td><span id="tienlai" contenteditable="false">
                                         <% if (tienLai != null) {%>
@@ -122,32 +122,32 @@
                 </form>
             </div>
             <div class="rate-count-result">
-                <h1>Interest rate details for each type of savings</h1>
+                <h1>Chi tiết lãi suất cho từng loại tiết kiệm</h1>
                 <ul>
                     <li>
-                        <h2>I. Interest rate of recurrent savings</h2>
+                        <h2>I. Lãi suất tiết kiệm định kỳ</h2>
                         <img src="img/phatloc.jpg" class="cus-img-1" alt="">
                     </li>
                     <li>
-                        <h2>III. Interest rate of non-term savings</h2>
+                        <h2>III. Lãi suất tiết kiệm không kỳ hạn</h2>
                         <img src="img/khongkihan_1.png" class="cus-img-2" alt="">
                     </li>
                     <li>
-                        <h2>III. Interest rate of SUPERKID saving</h2>
+                        <h2>III. Lãi suất tiết kiệm Superkid</h2>
                         <img src="img/superkid.png" class="cus-img-2" alt="">
                     </li>
                     <li>
-                        <h2>IV. Interest rate of Phat Loc Online</h2>
+                        <h2>IV. Lãi suất tiết kiệm Phát Lộc Online</h2>
                         <img src="img/phatloconline.jpg" alt="">
-                        <h2>V. Interest rate of Tai tam - tai hien with insurrance</h2>
+                        <h2>V. Lãi suất Tài tâm - Tài hiền có bảo hiểm</h2>
                         <img src="img/taitamtaihiencbh.png" class="cus-img-3" alt="">
                     </li>
                     <li>
-                        <h2>VI. Interest rate of Tai tam - tai hien without insurrance</h2>
+                        <h2>VI. Lãi suất Tài tâm - Tài hiền không có bảo hiểm</h2>
                         <img src="img/taitamtaihienkbh.png" class="cus-img-3" alt="">
                     </li>
                     <li>
-                        <h2>VII. Interest rate of An loc</h2>
+                        <h2>VII. Lãi suất An Lộc</h2>
                         <img src="img/anloc.png" alt="">
                     </li>
                 </ul>
