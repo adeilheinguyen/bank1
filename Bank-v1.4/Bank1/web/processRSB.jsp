@@ -12,11 +12,11 @@
     String sdht = request.getParameter("money");
     String hinhThuTraLai = request.getParameter("httl");
     if (soTienGui.equals("")) {
-        response.sendRedirect("registerSB.jsp?errSTG=" + "Please enter number of money");
+        response.sendRedirect("registerSB.jsp?errSTG=" + "Hãy nhập số tiền");
     } else {
         String infor = Servelet.getInstance().openSB(taiKhoan, loaiHTGTK, khg, soTienGui, sdht, hinhThuTraLai);
         if (infor.equals("Open Successful")) {
-            session.setAttribute("successMessage","Open SB Successful!");
+            session.setAttribute("successMessage","Mở số tiết kiệt thành công!");
             response.sendRedirect("registerSB.jsp?mtc=1");
         } else {
             response.sendRedirect("registerSB.jsp?errSTG=" + infor);
