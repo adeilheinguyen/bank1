@@ -56,7 +56,7 @@
                 <ul>
                     <li>
                         <a href="interestrate.jsp">
-                            Calculate saving interest
+                            Tính lãi suất
                         </a>
                     </li>
                     <li>
@@ -72,16 +72,16 @@
             <div class="content">
                 <div class="acc-content" >
                     <div class="acc-detail">
-                        <span class="acc-detail-title">Register</span>
+                        <span class="acc-detail-title">Đăng ký</span>
                     </div>
                     <form name="myform" action="processRegisterib.jsp" method="post" onsubmit="return validation()">
                         <div class="form-group">
-                            <label class="acc-title">Customer detail</label>
+                            <label class="acc-title">Chi tiết tài khoản</label>
                             <div class="sign-up-wrapper">
                                 <table class="acc-signup ">
                                     <tbody>
                                         <tr>
-                                            <td>Account number:</td>
+                                            <td>Số tài khoản: </td>
                                             <td><input type="number" class="form-control signup-input" autofocus="true" name="nameaccount" id="nameaccount" value ="${nameaccount}"/></td>
                                         </tr>
                                         <tr>
@@ -198,7 +198,7 @@
             <p><a onclick="alert('Function is under construction')" href="">Techcombank</a> | Hotline: 1900 54 54 13</p>
         </div>
         <div class="right">
-            <p class="lienhe"><a href="" onclick="alert('Function is under construction')">Instructions for using the service</a> | <a target="_blank" href="#">Instructions for safe trading</a></p>
+            <p class="lienhe"><a href="" onclick="alert('Function is under construction')">Hướng dẫn sử dụng dịch vụ</a> | <a target="_blank" href="#">Instructions for safe trading</a></p>
         </div>
     </div>
             </div>
