@@ -33,11 +33,11 @@
     <div class="content">
         <div class="acc-content">
             <div class="acc-detail">
-                <span class="acc-detail-title">Account detail</span>
+                <span class="acc-detail-title">Chi tiết tài khoản</span>
             </div>
             <form>
                 <div class="form-group">
-                    <label class="acc-title">Source account</label>
+                    <label class="acc-title">Tài nguyên tài khoản</label>
                     <div class="acc-info">
                         <label>Account: </label>
                         <select class=" acc-select form-control" id="tkk" name ="sel1" onchange="tietkiem()">
@@ -79,23 +79,23 @@
                         <table class="tbllisting fix_table">
                             <tbody id="loaiTKD">
                                 <tr>
-                                    <td class="tdlabel">Account holder</td>
+                                    <td class="tdlabel">Tên tài khoản</td>
                                     <td><span id="lb_Tentaikhoan"><%= tentk%></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Account number</td>
+                                    <td class="tdlabel">Số tài khoảnr</td>
                                     <td><span id="lb_sotaikhoan"><%= sotk%></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Current balance</td>
+                                    <td class="tdlabel">Số dư hiện tại</td>
                                     <td><span id="lb_soduhientai"><%= soduht1%></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="tdlabel">Available balance</td>
+                                    <td class="tdlabel">Số dư khả dụng</td>
                                     <td><span id="lb_sodukhadung"><%= sdkd1%></span></td>
                                 </tr>
                                 <tr>
-                                    <td id="dayTKD" class="tdlabel">Opening date</td>
+                                    <td id="dayTKD" class="tdlabel">Ngày mở tài khoản</td>
                                     <td id="dayTKS" style="display:none" class="tdlabel">Ngày mở</td>
                                     <td><span id="lb_ngaymotaikhoan"><%= ngaymotk%></span></td>
                                 </tr>
