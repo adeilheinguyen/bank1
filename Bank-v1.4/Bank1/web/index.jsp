@@ -31,8 +31,8 @@
             </div>
             <div class="signin-info">
                 <form method="post" action="processLogin.jsp" >
-                    <input class="form-control" type="text" placeholder="Username" autofocus="true" name="nameaccount"><br>
-                    <input class="form-control" type="password" placeholder="Password" name="password"><br>
+                    <input class="form-control" type="text" placeholder="Tên đăng nhập" autofocus="true" name="nameaccount"><br>
+                    <input class="form-control" type="password" placeholder="Mật khẩu" name="password"><br>
 
                     <% 
                         String err = (String) session.getAttribute("errMessage");
@@ -46,7 +46,7 @@
             <p id="err-ms"></p>
             <div class="signin-link">
                 <p>
-                    <a href="" onclick="alert('Function is under construction')">Quên mất khậu à?</a>
+                    <a href="" onclick="alert('Function is under construction')">Quên mất khẩu à?</a>
                 </p>
                 <p>
                     <a href="registerib.jsp">Đăng ký</a>
