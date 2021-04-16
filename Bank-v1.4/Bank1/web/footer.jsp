@@ -5,7 +5,7 @@
             <p><a onclick="alert('Function is under construction')" href="">Techcombank</a> | Hotline: 1900 54 54 13</p>
         </div>
         <div class="right">
-            <p class="lienhe"><a href="" onclick="alert('Function is under construction')">Instructions for using the service</a> | <a target="_blank" href="#">Instructions for safe trading</a></p>
+            <p class="lienhe"><a href="" onclick="alert('Function is under construction')">Hướng dẫn sử dụng dịch vụ</a> | <a target="_blank" href="#">Hướng dẫn giao dịch</a></p>
         </div>
     </div>
 </footer>
