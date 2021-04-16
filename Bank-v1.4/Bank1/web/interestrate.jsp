@@ -16,7 +16,7 @@
                     <table>
                         <tbody>
                             <tr>
-                                <td><span class="heading">Điền số tiền</span></td>
+                                <td><span class="heading">Số tiền</span></td>
                                 <td><input type="number" name="sotien" autofocus="true" id="sotien" class="form-control"  title=""></td>
                                 <td>VND</td>
                             </tr>
@@ -106,7 +106,11 @@
                                 </td>
                             </tr>
                             <tr>
+<<<<<<< HEAD
                                 <td><span name="kq"class="heading">Tiền lãir</span></td>
+=======
+                                <td><span name="kq"class="heading">Tiền lãi</span></td>
+>>>>>>> 2e756e8effd613f537a96a551b766166e69b6cda
 
                                 <td><span id="tienlai" contenteditable="false">
                                         <% if (tienLai != null) {%>
