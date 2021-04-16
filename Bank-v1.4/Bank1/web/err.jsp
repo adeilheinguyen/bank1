@@ -29,13 +29,21 @@
                         <h1>
                             Oops!</h1>
                         <h2>
-                            404 Not Found</h2>
+                           404 không tìm thấy</h2>
                         <div class="error-details">
+<<<<<<< HEAD
                             Có lỗi xảy ra, xin vui lòng thử lại!
                         </div>
                         <div class="error-actions">
                             <a href="index.jsp" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
                               Về trang chủ </a><a href="index.jsp" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Liên hệ hỗ trợ </a>
+=======
+                            Xin lỗi, có lỗi xảy ra, vui lòng thử lại!
+                        </div>
+                        <div class="error-actions">
+                            <a href="index.jsp" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                                Take Me Home </a><a href="index.jsp" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Liên hệ hỗ trợ </a>
+>>>>>>> 7d3ab9f50722c1b72a75517ff8443415fae30375
                         </div>
                     </div>
                 </div>
