@@ -121,7 +121,7 @@
                         </tbody>
                     </table>
                     <div class="count-btn">
-                        <input id ="calculate" type="submit" value="Calculate" class="btn btn-default" />
+                        <input id ="calculate" type="submit" value="Tính tiền" class="btn btn-default" />
                     </div>
                 </form>
             </div>
