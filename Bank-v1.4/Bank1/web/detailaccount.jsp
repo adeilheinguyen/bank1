@@ -74,7 +74,7 @@
                         ngaymotk = bn.getOpenDateAccount();
                     %>
 
-                    <label class="acc-title">CURRENT ACCOUNT:</label>
+                    <label class="acc-title">TÀI KHOẢN HIỆN TẠI:</label>
                     <div class="acc-info">
                         <table class="tbllisting fix_table">
                             <tbody id="loaiTKD">
